@@ -1,0 +1,418 @@
+body {
+	background: #f1f1f1;
+}
+
+/* rodape */
+footer {
+   	width:100%;
+	background: #FFF;
+	border-top:1px solid #e8e8e8;
+	padding:10px 40px;
+}
+
+footer a {
+	margin-top:12px;
+	margin-left:20px;
+}
+
+footer a i {
+	margin-left:3px;
+	margin-right:9px;
+}
+
+.fix-footer {
+	min-height: 82vh;
+}
+
+.footer-links {
+	padding-left: 0;
+}
+
+.footer-links li {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.footer-links li a {
+	color: #757575;
+}
+
+/* Definição de cor do Youtube */
+.text-youtube {
+	color:#cd201f;
+}
+
+.background-youtube {
+	background-color:#cd201f;
+}
+
+/* Ajustes no topo */
+.navbar-brand {
+	color:#b8b8b8 !important;
+}
+
+.navbar-brand:hover {
+	color:#424242 !important;
+}
+
+.navbar-brand i {
+	font-size:14px;
+}
+
+.navbar {
+	border-bottom:1px solid #e8e8e8;
+	background: #FFF;
+}
+
+.logo {
+	height:26px;
+	margin-top: 12px;
+}
+
+.profile {
+	height:30px;	
+}
+
+.navbar-form {
+	width: 100%;
+}
+
+.search-div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.search {
+	border-radius: 0 !important;
+	width: 100% !important;
+}
+
+.search-btn {
+	border-radius: 0 !important;
+}
+
+.bell {
+	margin-left:25px;
+	margin-right:27px;
+}
+.bell i {
+	font-size:18px !important;
+}
+
+.btn-send {
+	border-radius: 0 !important;
+}
+
+.navbar-right {
+	padding-right:20px;
+}
+
+/* Responsivo navbar pesquisa */
+@media (max-width: 768px) { 
+	.search {
+		border-radius: 0 !important;
+		width: 80%;
+	}
+	.search-btn {
+		border-radius: 0 !important;
+        white-space:normal !important;
+        word-wrap:break-word; 
+	}
+	.navbar-form {
+		height: 34px !important;
+		padding-top: 0px !important;
+	}
+}
+
+/* Corpo da página */
+.top-menu {
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;  
+    width:100%;  
+    padding:0;
+}
+
+.nav-tabs {
+    text-align: center !important;
+}
+
+.nav-tabs li {
+    float:none;
+    display:inline-block;
+}
+
+.nav-tabs li a {
+    border: 0 !important;
+    color:#9E9E9E;
+    height: 40px;
+    padding: 7px;
+    line-height: 40px;
+    margin-right:12px;
+    margin-left:12px;
+    display: inline !important;
+}
+
+.nav-tabs li a:hover {
+    color:#616161;
+    background:#FFF;
+    border-bottom:5px solid #cd201f;
+    text-decoration: none;
+}
+
+.nav-tabs .active a {
+    color:#616161 !important;
+    border-bottom:5px solid #cd201f !important;
+    text-decoration: none !important;    
+}
+
+.top-menu-hover {
+    color:#616161;
+    border-bottom:5px solid #cd201f;
+    text-decoration: none;
+}
+
+.video-thumb {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.video-info {
+	padding: 0;
+}
+
+.video-info > .views {
+	font-size:12px;
+	color: #757575;
+	text-align: left;
+}
+
+.video-section{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:4px;
+}
+
+.videos {
+	padding: 10px 10px;
+}
+
+@media(min-width:768px) {
+	.videos {
+	    padding: 10px 70px;
+	}
+}
+
+.video-box {
+	background: #fff;
+	padding: 10px 10px;
+}
+
+.tab-pane h5 {
+	font-size:16px;
+}
+
+.video-title {
+	margin-top:10px;
+	font-size:14px;
+	font-weight: bold;
+}
+
+.video-title2 {
+	font-size:15px;
+	font-weight: bold;
+}
+
+.channel-title{
+	color: #9E9E9E;
+    font-size:12px;
+}
+
+.channel-title:hover{
+	color: #337ab7;
+}
+
+/* Estilo da side bar */
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-top: 51px;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    background: #fff;
+    border-right:1px solid #e8e8e8;
+    box-shadow: 2px 0px 10px -5px #333;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+.sidebar-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    padding: 0;
+    list-style: none;
+}
+
+.divisor {
+    padding-top:15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.divisor2 {
+    padding-bottom:15px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.first {
+    padding-top:15px;    
+}
+
+.channel {
+    height:18px;
+    width:18px;
+}
+
+.sidebar-nav > .title {
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 0px;
+    font-size:11px;
+    margin-left:10px !important;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    font-size:12px;
+    margin:00px 20px 0px 20px;
+    line-height: 10px;
+}
+
+.channel-list {
+    line-height: 16px !important;
+}
+
+.sidebar-nav li a {
+    display: block;    
+    padding:10px 10px 10px 20px;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a i {
+    left: 15px;
+    position: absolute;
+}
+
+.sidebar-nav > .active a {
+    background-color: #cc181e;
+    color: #fff !important;
+}
+
+.sidebar-nav > .active a:hover {
+    background-color: #cc181e;
+    color: #fff !important;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #444;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+/* Customizando scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+::-webkit-scrollbar-track {
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #BDBDBD; 
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4); 
+}
