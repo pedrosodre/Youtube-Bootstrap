@@ -10,13 +10,11 @@ O projeto foi dividido em 7 partes, onde cada parte tem um arquivo HTML correspo
 
 #### Versão responsiva para desktop
 
-<img src="https://raw.githubusercontent.com/pedrosodre/
-Youtube-Bootstrap/master/preview-desktop.png" width="600" alt="Prévia da versão responsiva para desktop" />
+<img src="https://github.com/pedrosodre/Youtube-Bootstrap/raw/master/preview-desktop.png" width="600" alt="Prévia da versão responsiva para desktop" />
 
 #### Versão responsiva para mobile
 
-<img src="https://raw.githubusercontent.com/pedrosodre/
-Youtube-Bootstrap/master/preview-mobile.png" height="300" alt="Prévia da versão responsiva para mobile" />
+<img src="https://github.com/pedrosodre/Youtube-Bootstrap/raw/master/preview-mobile.png" height="300" alt="Prévia da versão responsiva para mobile" />
 
 ## Conceitos abordados
 
